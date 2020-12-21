@@ -3,6 +3,7 @@ import { Hotkey } from './hotkey.model';
 import { Subject } from 'rxjs';
 import { HotkeyOptions, IHotkeyOptions } from './hotkey.options';
 import * as Mousetrap from 'mousetrap';
+import { MousetrapInstance} from 'mousetrap';
 
 @Injectable({
     providedIn: 'root'
